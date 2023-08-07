@@ -1,4 +1,4 @@
-/*---------------------TYPE PROMOTION-------------------- */
+package Polymorphism;
 
 class area {
 

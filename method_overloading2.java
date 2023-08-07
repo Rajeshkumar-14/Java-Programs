@@ -1,3 +1,5 @@
+package Polymorphism;
+
 /*------------------- METHOD OVERLOADING ------------------------------ */
 
 class area {
@@ -6,15 +8,15 @@ class area {
         return a*b;
     };
 
-    static int find_area(int a){
-        return a*4;
+    static int find_area(int a,int b){
+        return a*b;
     }
 }
 
 public class method_overloading2{
     public static void main(String args[])
     {
-        System.out.println(area.find_area(5));
+        System.out.println(area.find_area(5,5));
         System.out.println(area.find_area(15.5,20.2));
 
     }
